@@ -1,0 +1,40 @@
+'''
+Projeto - Jogo da Forca
+Fundamentos usados
+Betânia de Paula Maciel Barbosa
+2025/06/30
+'''
+01. Entrada:
+Arquivo: meu_projetoJogoDaForca
+Linha 29: tentativa = input("Digite uma letra: ") 
+Explicação: Pede para o usuário digitar uma letra e guarda o que foi digitado na variável tentativa.
+
+02. Saída:
+Arquivo: meu_projetoJogoDaForca
+Linha 36:  print(f"Boa! A letra '{tentativa}' está na palavra! Que bom, neh?")
+Explicação: Mensagem de sucesso usando f-string para formatação.
+
+03. Variáveis:
+Arquivo: meu_projetoJogoDaForca
+Linha 13: chances = 7
+Explicação: Número de chances que o usuário tem para adivinhar a palavra dentro da variável chances, representando o número de tetativas no jogo.
+
+04. Operadores:
+Arquivo: meu_projetoJogoDaForca
+Linha 30: if tentativa.isalpha() and len(tentativa) == 1:
+Explicação: Verificar se todas a tentativas forem letras do alfabeto dentro de tentativa.isalpha.
+
+05. Estruturas de Decisão
+Arquivo: meu_projetoJogoDaForca
+Linha 31: if tentativa not in letrasUsuario:
+Explicação: Verificar se a letra digitada ainda não esta na lista de letras já adivinhadas com if sendo uma condição, tentativa é a letra digitada, letrasUsuario é uma lista e not in verifica se a letra ão está dentro da lista.
+
+06. Estruturas de Repetição
+Arquivo: meu_projetoJogoDaForca
+Linha 25: while True:
+Explicação: Estrutura para repitir enquanto a condição for verdadeira, while cria um laço de repetição e True é pra sempre verdadeiro.
+
+07. Funções:
+Arquivo: meu_projetoJogoDaForca
+Linha 16: def mostrarPalavra(palavra, letrasUsuario):
+Explicação: Função para exibir a palavra com as letras adivinhadas pelo usuário, def para função, mostrarPalavra o nome da Função, e (palavra, letrasUsuario) são parâmetros que a função recebe.
